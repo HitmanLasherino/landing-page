@@ -35,7 +35,7 @@ Este portafolio personal ha sido diseñado para presentar mi experiencia y habil
 
 ## Estructura del Proyecto
 
-.
+```
 ├── assets/
 │   ├── css/
 │   │   └── styles.css
@@ -66,7 +66,7 @@ Este portafolio personal ha sido diseñado para presentar mi experiencia y habil
 │   └── typed/
 │       └── typed.js
 └── index.html
-
+```
 ## Contacto
 
 Puedes contactarme a través de:
