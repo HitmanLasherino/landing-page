@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio - Franco Agustin Albornoz</title>
+    
+    <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="libs/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="libs/boxicons-2.1.4/css/boxicons.min.css">
+
+    <link rel="stylesheet" href="libs/OwlCarousel2-2.3.4/owl.carousel.min.css">
+    <link rel="stylesheet" href="libs/OwlCarousel2-2.3.4/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#home">
+                    <h2 class="text-dark">Franco Albornoz</h2> 
+                </a>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home" data-scroll-to="home">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about" data-scroll-to="about">Sobre Mí</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services" data-scroll-to="services">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills" data-scroll-to="skills">Habilidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact" data-scroll-to="contact">Contacto</a>
+                        </li>
+                    </ul>
+                    </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="home-section position-relative overflow-hidden">
+            <div class="container d-flex flex-column justify-content-center align-items-center h-100 text-center">
+                <div class="home-intro">
+                    <p class="name" data-language-key="home.intro.greeting">¡Hola, soy Franco Agustin Albornoz!</p>
+                    <h1 data-language-key="home.intro.heading">
+                        <span class="typed-text"></span><span class="cursor">&nbsp;</span>
+                    </h1>
+                    <p data-language-key="home.intro.description">
+                        Soy un programador junior apasionado por la tecnología y el desarrollo de software.
+                    </p>
+                    <div class="d-flex justify-content-center align-items-center mt-4">
+                        <a href="assets/downloads/CV_Franco_Albornoz.pdf" target="_blank" class="btn-theme" data-language-key="home.intro.download_cv">
+                            Descargar CV
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-heading">
+                    <h2 data-language-key="about.heading">Sobre Mí</h2>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <div class="about-image text-center">
+                            <img src="assets/images/logo.jpg" alt="Sobre Mí">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about-text">
+                            <h3 class="sub-title-color" data-language-key="about.sub_heading">Mi Historia</h3>
+                            <p data-language-key="about.description_part1">
+                                Mi viaje en el mundo de la programación comenzó con una curiosidad insaciable por entender cómo funcionan las tecnologías que nos rodean. Desde mis inicios, me he sumergido en el desarrollo de software, lo que me llevó a cursar la Tecnicatura Universitaria en Programación en la UTN. Esta formación me ha permitido consolidar una base sólida tanto en frontend como en backend, y cada línea de código que escribo es impulsada por mi pasión por transformar ideas en soluciones funcionales y escalables.
+                            </p>
+                            <p data-language-key="about.description_part2">
+                                Mis habilidades principales residen en el desarrollo backend, donde he trabajado con Java, Spring Boot y MySQL para construir la lógica del negocio y sistemas de gestión robustos. Lo que más disfruto de mi trabajo es ver cómo el código que creo cobra vida y resuelve necesidades reales, especialmente cuando se trata de optimizar procesos y asegurar la seguridad de los datos. Me entusiasma colaborar en equipos donde puedo aportar mi proactividad y mi enfoque en la resolución eficiente de problemas.
+                            </p>
+                            <p class="open-to-work">
+                                <span class="green-dot"></span> <span data-language-key="about.open_to_work">Disponible para trabajar</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="services" class="section bg-gray">
+            <div class="container">
+                <div class="section-heading">
+                    <h2 data-language-key="services.heading">Servicios</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 mb-4">
+                        <div class="feature-box d-flex flex-column align-items-center text-center">
+                            <div class="icon mb-3">
+                                <i class='bx bx-desktop'></i>
+                            </div>
+                            <div class="content">
+                                <h3 data-language-key="services.service1.title">Desarrollo Web</h3>
+                                <p data-language-key="services.service1.description">
+                                    Creación de experiencias web completas y responsivas, tanto en la interfaz de usuario como en la lógica del servidor.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 mb-4">
+                        <div class="feature-box d-flex flex-column align-items-center text-center">
+                            <div class="icon mb-3">
+                                <i class='bx bx-cloud'></i>
+                            </div>
+                            <div class="content">
+                                <h3 data-language-key="services.service2.title">Desarrollo de APIs</h3>
+                                <p data-language-key="services.service2.description">
+                                    Diseño y construcción de interfaces de programación robustas para la comunicación entre aplicaciones y servicios.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 mb-4">
+                        <div class="feature-box d-flex flex-column align-items-center text-center">
+                            <div class="icon mb-3">
+                                <i class='bx bx-cube-alt'></i>
+                            </div>
+                            <div class="content">
+                                <h3 data-language-key="services.service3.title">Desarrollo de Software</h3>
+                                <p data-language-key="services.service3.description">
+                                    Creación de soluciones de software a medida, desde la concepción hasta la implementación y el mantenimiento.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 mb-4">
+                        <div class="feature-box d-flex flex-column align-items-center text-center">
+                            <div class="icon mb-3">
+                                <i class='bx bx-support'></i>
+                            </div>
+                            <div class="content">
+                                <h3 data-language-key="services.service4.title">Mantenimiento y Soporte</h3>
+                                <p data-language-key="services.service4.description">
+                                    Ofrezco soporte continuo y mantenimiento para asegurar el óptimo funcionamiento y actualización de tus aplicaciones.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="section">
+            <div class="container">
+                <div class="section-heading">
+                    <h2 data-language-key="skills.heading">Habilidades</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center mb-5">
+                        <h3 class="section-sub-heading" data-language-key="skills.technical_skills_heading">Habilidades Técnicas</h3>
+                        <div class="row justify-content-center">
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-4">
+                                <div class="feature-box feature-box-small d-flex flex-column align-items-center text-center">
+                                    <div class="icon mb-2">
+                                        <i class='bx bxl-html5'></i>
+                                    </div>
+                                    <h4 data-language-key="skills.html">HTML5</h4>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-4">
+                                <div class="feature-box feature-box-small d-flex flex-column align-items-center text-center">
+                                    <div class="icon mb-2">
+                                        <i class='bx bxl-css3'></i>
+                                    </div>
+                                    <h4 data-language-key="skills.css">CSS3</h4>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-4">
+                                <div class="feature-box feature-box-small d-flex flex-column align-items-center text-center">
+                                    <div class="icon mb-2">
+                                        <i class='bx bxl-javascript'></i>
+                                    </div>
+                                    <h4 data-language-key="skills.javascript">JavaScript</h4>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-4">
+                                <div class="feature-box feature-box-small d-flex flex-column align-items-center text-center">
+                                    <div class="icon mb-2">
+                                        <i class='bx bxl-typescript'></i>
+                                    </div>
+                                    <h4 data-language-key="skills.typescript">TypeScript</h4>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-4">
+                                <div class="feature-box feature-box-small d-flex flex-column align-items-center text-center">
+                                    <div class="icon mb-2">
+                                        <i class='bx bxl-java'></i>
+                                    </div>
+                                    <h4 data-language-key="skills.java">Java</h4>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-4">
+                                <div class="feature-box feature-box-small d-flex flex-column align-items-center text-center">
+                                    <div class="icon mb-2">
+                                        <i class='bx bxl-spring-boot'></i>
+                                    </div>
+                                    <h4 data-language-key="skills.springboot">Spring Boot</h4>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-4">
+                                <div class="feature-box feature-box-small d-flex flex-column align-items-center text-center">
+                                    <div class="icon mb-2">
+                                        <i class='bx bxl-python'></i>
+                                    </div>
+                                    <h4 data-language-key="skills.python">Python</h4>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-4">
+                                <div class="feature-box feature-box-small d-flex flex-column align-items-center text-center">
+                                    <div class="icon mb-2">
+                                        <i class='bx bx-data'></i>
+                                    </div>
+                                    <h4 data-language-key="skills.sql">SQL</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+            </div>
+        </section>
+        <section id="contact" class="section">
+            <div class="container text-center">
+                <div class="section-heading">
+                    <h2 data-language-key="contact.heading">Contacto</h2>
+                </div>
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-lg-6 col-md-8">
+                        <div class="contact-info d-flex flex-column align-items-center">
+                            <i class='bx bx-envelope mail-icon'></i>
+                            <h3 class="mail text-dark mb-4" data-language-key="contact.email_prompt">
+                                Envíame un mensaje a
+                                <a href="mailto:franquito45.fnlsrn@gmail.com" class="text-theme">franquito45.fnlsrn@gmail.com</a>
+                            </h3>
+                            <div id="social-networks" class="d-flex justify-content-center gap-3 mt-4"> <a href="https://github.com/HitmanLasherino" target="_blank">
+                                        <img src="assets/icons/GitHub.svg" alt="GitHub" class="img-no-p">
+                                </a>
+                                <a href="https://www.linkedin.com/in/franco-agustin-albornoz-317a63324/" target="_blank">
+                                        <img src="assets/icons/LinkedIn.svg" alt="LinkedIn" class="img-no-p">
+                                </a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </main>
+    <footer class="footer text-center">
+        <div class="container">
+            <p class="mb-0">
+                Hecho por Franco Albornoz
+                <a href="https://github.com/tuusuario/tu-repositorio" target="_blank">
+                    <img src="assets/icons/GitHub.svg" alt="GitHub Repo" class="ms-2">
+                    <span class="ms-1 nowrap">Ver Código</span>
+                </a>
+            </p>
+            <p class="mb-0">
+                &copy; <span id="currentYear"></span>. Todos los derechos reservados.
+            </p>
+            <p class="text-white mt-1">** RECORDATORIO: Sube tu proyecto a GitHub y actualiza este enlace! **</p>
+        </div>
+    </footer>
+    <script src="libs/jquery-3.7.1/jquery.js"></script>
+    <script src="libs/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="libs/typed/typed.js"></script>
+    <script src="libs/OwlCarousel2-2.3.4/owl.carousel.min.js"></script>
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>
